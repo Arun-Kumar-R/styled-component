@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FormRight = styled.div `
     width: 60%;
     margin: auto;
-    background-color: ${props => props.theme.colors.white};
+    background-color: ${props => (props.theme.colors.white)};
     padding: 0 0 28px 0;
     position: relative;
 `;

@@ -41,3 +41,25 @@
   font-family: 'Karla Regular';
   src: url('./assets//fonts/Karla-Regular.ttf');
 }
+
+.counter-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 24%;
+}
+.counter-container .increment, .counter-container .decrement {
+  padding: 4px 20px;
+  font-size: 20px;
+  background-color: #e2e2e2;
+  border: 1px solid #b3afaf;
+  color: #312d2d;
+}
+.counter-container p {
+  border: 1px solid #adaaaa;
+    padding: 4.8px 0px;
+    text-align: center;
+    width: 40px;
+}
