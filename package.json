@@ -26,9 +26,6 @@
       "react-app/jest"
     ]
   },
-  "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
